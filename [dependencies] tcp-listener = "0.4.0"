@@ -1,0 +1,14 @@
+[package]
+name = "tcpview"
+version = "0.1.0"
+edition = "2021"
+description = "test"
+license = "MIT"
+keywords = ["server", "rust", "firewall"]
+authors = ["z"]
+
+[dependencies]
+tcp-listener = "0.4.0"
+http = "0.2.8"
+json = “0.12.4"
+
